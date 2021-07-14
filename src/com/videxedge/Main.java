@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void q2() {
+    public static void q2() {   // שאלה 2
         Scanner input = new Scanner(System.in);
         String name;
         int section, total = 0;
@@ -21,7 +21,7 @@ public class Main {
         System.out.println ("Total length of trail:"+total);
     }
 
-    public static void q3() {
+    public static void q3() {   // שאלה 3
         Scanner input = new Scanner(System.in);
         String name;
         int fix, total = 0;
@@ -38,7 +38,7 @@ public class Main {
         System.out.println ("Total fixes for day:"+total);
     }
 
-    public static void q4() {
+    public static void q4() {   // שאלה 4
         Scanner input = new Scanner(System.in);
         String name;
         int units, grade, totalfive = 0;
@@ -62,7 +62,7 @@ public class Main {
         System.out.println ("Total 5 units students: "+totalfive);
     }
 
-    public static void q5() {
+    public static void q5() {   // שאלה 5
         Scanner input = new Scanner(System.in);
         String name;
         int boxes, price,total20 = 0;
@@ -84,7 +84,7 @@ public class Main {
         System.out.println ("Total customers that bought more then 20 boxes: "+total20);
     }
 
-    public static void q6() {
+    public static void q6() {   // שאלה 6
         Scanner input = new Scanner(System.in);
         String flag;
         int blackDay = 0;
@@ -99,7 +99,7 @@ public class Main {
         System.out.println ("Total black flag days: "+blackDay);
     }
 
-    public static void q7() {
+    public static void q7() {   // שאלה 7
         Scanner input = new Scanner(System.in);
         String name, bloodType;
         int birthYear, typeO = 0;
@@ -118,7 +118,7 @@ public class Main {
         System.out.println ("Total doners with O blood type: "+typeO);
     }
 
-    public static void q8() {
+    public static void q8() {   // שאלה 8
         Scanner input = new Scanner(System.in);
         int measure1, measure2, allowed, max;
         for (int i=1; i<=30; i++) {
